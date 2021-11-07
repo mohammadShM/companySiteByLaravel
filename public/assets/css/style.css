@@ -1,0 +1,21 @@
+/* ================= start variable ================= */
+@import "template/variable.css";
+/* ================= end variable ================= */
+/* ================= start menu ================= */
+@import "template/menu.css";
+/* ================= end menu ================= */
+/* ================= start menu ================= */
+@import "template/parallax.css";
+/* ================= end menu ================= */
+/* ================= start news ================= */
+@import "template/news.css";
+/* ================= end news ================= */
+/* ================= start form ================= */
+@import "template/form.css";
+/* ================= end form ================= */
+/* ================= start product ================= */
+@import "template/product.css";
+/* ================= end product ================= */
+/* ================= start footer ================= */
+@import "template/footer.css";
+/* ================= end footer ================= */

@@ -1,0 +1,242 @@
+section.news {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+}
+
+section.news > section.itemNews {
+    width: 33%;
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+p.itemNewsForMe {
+    height: 230px;
+}
+
+section.news > section.itemNews > div.divNews {
+    margin: 1px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+section.news > section.itemNews > div.divNews > h1 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+section.news > section.itemNews > div.divNews > div {
+    width: 100%;
+    height: 220px;
+    display: inline-block;
+    background-color: #1b1e21;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 300ms linear;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+section.news > section.itemNews > div.divNews > div > img {
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 300ms linear;
+}
+
+section.news > section.itemNews > div.divNews > div.divNewsOnePage > img {
+    max-width: 100%;
+    width: 100%;
+    height: 400px !important;
+}
+
+section.news > section.itemNews > div.divNews > div.divNewsOnePage {
+    width: 100%;
+    height: 420px !important;
+    margin-bottom: 30px !important;
+}
+
+section.news > section.itemNews > div.divNews > div:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section.news > section.itemNews > div.divNews > div:hover > img {
+    transform: scale(1.50);
+}
+
+section.news > section.itemNews > div.divNews > p {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+section.news > section.itemNews > div.divNews > a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: limegreen;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 5px;
+    border: 2px solid green;
+    transition: all 300ms linear;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+section.news > section.itemNews > div.divNews > a:hover {
+    background-color: darkgreen;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* ============================================ for form comment ============================================ */
+
+.itemNewsComment {
+    width: 100%;
+    text-align: left;
+    direction: ltr;
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.input-comment-news {
+    border: 2px inset lightgray;
+    width: 100%;
+    height: 40px;
+    display: block;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    color: #212121;
+    box-sizing: border-box;
+}
+
+.textarea-comment-news {
+    border: 2px inset lightgray;
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #212121;
+    resize: none;
+    height: 150px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.label-comment-news {
+    color: #761b18;
+    font-weight: bold;
+}
+
+.section-comment-news {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.submit-comment-news {
+    width: 60%;
+    height: 50px;
+    background-color: #1d643b;
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 20px 20% 10px;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 300ms linear;
+}
+
+.submit-comment-news:hover {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: #0b391c;
+    font-size: 18px;
+}
+
+.textarea-comment-news::-webkit-input-placeholder,
+.input-comment-news::-webkit-input-placeholder {
+    color: #616161;
+    font-weight: bold;
+}
+
+div.divNewsComment {
+    margin: 1px;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: white;
+}
+
+div.divNewsCommentShadow {
+    width: 80%;
+    margin: 30px 10%;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #EEEEEE;
+}
+
+div.session_for_comment {
+    background-color: #0b391c;
+    border-radius: 10px;
+    margin: 30px 25% 30px;
+    width: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    height: 50px;
+}
+
+div.session_for_comment > h2 {
+    color: #98dfb6;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* ============================================ for show comment ============================================ */
+
+div.divNewsShowCommentShadow {
+    width: 80%;
+    margin: 30px 10%;
+    padding: 25px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #717171;
+}
+
+div.divNewsShowCommentShadow > h2 {
+    color: white;
+}
+
+div.divNewsShowCommentShadow > h3 {
+    color: white;
+}
+
+div.divNewsShowCommentShadow > p {
+    color: white;
+    text-align: justify;
+}
